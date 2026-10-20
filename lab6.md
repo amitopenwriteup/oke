@@ -155,7 +155,7 @@ Update the image:
 
 ```bash
 kubectl set image deployment/web \
-  web=nginx:1.26 \
+  web=docker.io/library/nginx:1.26 \
   --namespace $NAMESPACE
 ```
 
