@@ -103,7 +103,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: nginx:1.25
+          image: docker.io/library/nginx:1.25
           ports:
             - name: http
               containerPort: 80
